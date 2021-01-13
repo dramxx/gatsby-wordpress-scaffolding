@@ -36,7 +36,7 @@ module.exports = {
         // Example: `["option_page_1", "option_page_2"]` will include the proper ACF option
         // routes with the ID option_page_1 and option_page_2
         // The IDs provided to this array should correspond to the `post_id` value when defining your
-        // options page using the provided `acf_add_options_page` method, in your WordPress setup
+        // options pageTemplate using the provided `acf_add_options_page` method, in your WordPress setup
         // Dashes in IDs will be converted to underscores for use in GraphQL
         acfOptionPageIds: [],
         auth: {
@@ -95,6 +95,7 @@ module.exports = {
           "**/tags",
           "**/taxonomies",
           "**/users",
+          "**/portfolio",
         ],
         // Blacklisted routes using glob patterns
         excludedRoutes: ["**/posts/1456"],
