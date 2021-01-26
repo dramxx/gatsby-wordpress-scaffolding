@@ -1,16 +1,15 @@
 import styled from "styled-components"
 
-export const StyledHeader = styled.header`
+export const Navbar = styled.header`
   padding: 2rem 1rem;
-  border: 3px solid black;
-  color: black;
+  border-bottom: 3px solid #333;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 `
-export const BrandPart = styled.div``
+export const Brand = styled.div``
 
-export const MenuPart = styled.div`
+export const Menu = styled.div`
   width: 20%;
   display: flex;
   justify-content: space-evenly;

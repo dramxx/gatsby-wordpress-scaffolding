@@ -1,19 +1,19 @@
 import React from "react"
 
-import { BrandPart, MenuPart, StyledHeader } from "./style"
+import { Brand, Menu, Navbar } from "./style"
 import LinkTo from "../Commons/link"
 
 const Header = () => (
-  <StyledHeader>
-    <BrandPart>
+  <Navbar>
+    <Brand>
       <LinkTo target={"/"} text={"gatsby-wordpress"} color={"#000"} />
-    </BrandPart>
-    <MenuPart>
+    </Brand>
+    <Menu>
       <LinkTo target={"/second"} text={"second"} color={"#000"} />
       <LinkTo target={"/third"} text={"third"} color={"#000"} />
       <LinkTo target={"/fourth"} text={"fourth"} color={"#000"} />
-    </MenuPart>
-  </StyledHeader>
+    </Menu>
+  </Navbar>
 )
 
 export default Header

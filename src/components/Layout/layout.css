@@ -3,13 +3,17 @@ html {
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em Hack;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  user-select: none;
 }
+
 body {
   margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #333;
   font-family: Hack;
   font-weight: normal;
   word-wrap: break-word;
