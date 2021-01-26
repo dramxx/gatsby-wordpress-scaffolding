@@ -6,5 +6,4 @@ export const StyledFooter = styled.footer`
   border-top: 3px solid #333;
   position: absolute;
   bottom: 0;
-  width: 100%;
 `

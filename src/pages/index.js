@@ -10,7 +10,9 @@ const WelcomeMessage = styled.h1`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <WelcomeMessage>hello, Artin &#10084;&#65039;</WelcomeMessage>
+    <WelcomeMessage>
+      hello, Artin <span role="img">&#10084;&#65039;</span>
+    </WelcomeMessage>
   </Layout>
 )
 
